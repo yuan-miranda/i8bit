@@ -13,7 +13,7 @@ def main():
 
     # LMAO
     img = resize_image(img, width * 100)
-    img.save("../media/img/massive_" + NAME.split(".")[0] + ".png")
+    img.save("../output/img/massive_" + NAME.split(".")[0] + ".png")
 
 if __name__ == "__main__":
     main()

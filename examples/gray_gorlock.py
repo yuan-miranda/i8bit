@@ -12,7 +12,7 @@ def main():
     width, height = img.size
 
     grayscale_image(img.load(), width, height)
-    img.save("../media/img/gray_" + NAME.split(".")[0] + ".png")
+    img.save("../output/img/gray_" + NAME.split(".")[0] + ".png")
 
 if __name__ == "__main__":
     main()

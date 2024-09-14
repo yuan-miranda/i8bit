@@ -13,7 +13,7 @@ def main():
     width, height = img.size
 
     ascii_art = to_ascii(img.load(), width, height, ASCII_CHARS)
-    with open("../media/ascii/ascii_" + NAME.split(".")[0] + ".txt", "w") as f:
+    with open("../output/ascii/ascii_" + NAME.split(".")[0] + ".txt", "w") as f:
         f.write(ascii_art)
 
 if __name__ == "__main__":

@@ -12,7 +12,7 @@ def main():
     width, height = img.size
 
     quantize_image(img.load(), width, height, 4)
-    img.save("../media/img/qualishit_" + NAME.split(".")[0] + ".png")
+    img.save("../output/img/qualishit_" + NAME.split(".")[0] + ".png")
 
 if __name__ == "__main__":
     main()
